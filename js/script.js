@@ -15,6 +15,13 @@ $('.sl2').slick({
     initialSlide: 1,
     responsive: [
         {
+            breakpoint: 578,
+            settings: {
+              variableWidth: true,
+              slidesToShow: 4,
+              }
+          },
+        {
           breakpoint: 376,
           settings: {
             variableWidth: true,
@@ -36,6 +43,14 @@ $('.offers__carousel_slider').slick({
     waitForAnimate: false,
     variableWidth: true,
     responsive: [
+        {
+            breakpoint: 578,
+            settings: {
+            //   variableWidth: true,
+              slidesToShow: 1,
+              arrows: false,
+            }
+          },
         {
           breakpoint: 376,
           settings: {
